@@ -23,6 +23,8 @@ class Connection extends AbstractIterator {
         'in_system_id'                     => ['target' => 'id'],
         'in_system_name'                   => ['target' => 'name'],
         'in_system_class'                  => ['target' => 'system_class'],
+        'in_region_id'                      => ['target' => 'region_id'],
+        'in_region_name'                    => ['target' => 'region_name'],
 
         'out_signature'                     => ['sourceSignature' => 'name'],
         'wh_type'                           => ['sourceSignature' => 'type'],
